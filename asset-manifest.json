@@ -1,1 +1,512 @@
-{"schema": "clawbench.static.v2", "kind": "asset_manifest", "asset_mode": "lite", "trace_detail_policy": "selected", "asset_count": 21018, "asset_bytes": 1812339500, "largest_assets": [{"staticPath": "injection/104_multimodal/task_104_40_impact_first180s_subtitles/sources/clip.mp4", "sourceHash": "26fbfad589eeeecad63a93f7c27f6b2cb2cefb59", "bytes": 63500279}, {"staticPath": "injection/204_multimodal_zh/task_204_40_impact_first180s_subtitles/sources/clip.mp4", "sourceHash": "70fd8a244bdae4e137f705c20d6110456fa9773e", "bytes": 63500279}, {"staticPath": "injection/104_multimodal/task_104_38_suddenly_first120s_subtitles/sources/clip.mp4", "sourceHash": "e27ab6e56688206f295aa5820def94dd52c0a821", "bytes": 60594246}, {"staticPath": "injection/204_multimodal_zh/task_204_38_suddenly_first120s_subtitles/sources/clip.mp4", "sourceHash": "f4f739addc55acf11c29688fa0863c9845636917", "bytes": 60594246}, {"staticPath": "injection/104_multimodal/task_104_37_dressed_to_kill_dialogue_subtitles/sources/clip.mp4", "sourceHash": "b6e94c88f2fe66bdf0b33e1c44b7a72f0f086bc7", "bytes": 56755522}, {"staticPath": "injection/204_multimodal_zh/task_204_37_dressed_to_kill_dialogue_subtitles/sources/clip.mp4", "sourceHash": "bc5424d42f2a43f38b5d1ccda01816fe61bac8ea", "bytes": 56755522}, {"staticPath": "injection/104_multimodal/task_104_39_meet_john_doe_first90s_subtitles/sources/clip.mp4", "sourceHash": "a1dcadf3ad6ccb9e4ef82b632de81b87dacf03bc", "bytes": 49409742}, {"staticPath": "injection/204_multimodal_zh/task_204_39_meet_john_doe_first90s_subtitles/sources/clip.mp4", "sourceHash": "86644c7d2c3809c35dbd2c71c68484ddb7fa74aa", "bytes": 49409742}, {"staticPath": "injection/104_multimodal/task_104_36_his_girl_friday_dialogue_subtitles/sources/clip.mp4", "sourceHash": "f42c2c120551ab27b23cf6bf43e289c5320801b3", "bytes": 48757443}, {"staticPath": "injection/204_multimodal_zh/task_204_36_his_girl_friday_dialogue_subtitles/sources/clip.mp4", "sourceHash": "861eb8643c1bf8e559ef8a61051c2ba9460ed00b", "bytes": 48757443}, {"staticPath": "injection/103_long_context/task_103_16_diffusion_blog/sources/papers/paper_06.pdf", "sourceHash": "83c564d478aaa29fc6a5aef9cc36fc79f12a7fbf", "bytes": 40842586}, {"staticPath": "injection/203_long_context_zh/task_203_16_diffusion_blog/sources/papers/paper_06.pdf", "sourceHash": "eb1b225dabe3977a4ea1774180d103c7b06e05d1", "bytes": 40842586}, {"staticPath": "injection/103_long_context/task_103_21_VLM_blog/sources/papers/paper_05.pdf", "sourceHash": "2745b731b198383c47345d47f5219a47447c00ef", "bytes": 31579390}, {"staticPath": "injection/203_long_context_zh/task_203_21_VLM_blog/sources/papers/paper_05.pdf", "sourceHash": "a78a2783c79ab6c6f95c2671298104587e79b7da", "bytes": 31579390}, {"staticPath": "injection/103_long_context/task_103_18_diffusion_video_blog/sources/papers/paper_08.pdf", "sourceHash": "762e6f925169deacb17fbd576b47b5c93bebb248", "bytes": 26789812}, {"staticPath": "injection/203_long_context_zh/task_203_18_diffusion_video_blog/sources/papers/paper_08.pdf", "sourceHash": "d67865227b15ee3a4dff1bd8ad09c660ad98027f", "bytes": 26789812}, {"staticPath": "injection/103_long_context/task_103_18_diffusion_video_blog/sources/papers/paper_07.pdf", "sourceHash": "1c3063fb4d1e65685237f0f6b922708026cb9e64", "bytes": 22261780}, {"staticPath": "injection/203_long_context_zh/task_203_18_diffusion_video_blog/sources/papers/paper_07.pdf", "sourceHash": "7b28d23bbf320b269164dcea7118ffb129d31eb8", "bytes": 22261780}, {"staticPath": "injection/103_long_context/task_103_15_embodiment_long_horizon_ppt/sources/papers/doc_03.pdf", "sourceHash": "5026317b0fade7a086f8d7db4e33395456d1e6b8", "bytes": 18830859}, {"staticPath": "injection/203_long_context_zh/task_203_15_embodiment_long_horizon_ppt/sources/papers/doc_03.pdf", "sourceHash": "3eec5b93df6b30f16debbd12e1b979538e4ca46d", "bytes": 18830859}, {"staticPath": "injection/103_long_context/task_103_15_embodiment_long_horizon_ppt/sources/papers/doc_10.pdf", "sourceHash": "831e7a429608fcfbc2660038c01ac5b8aa1f9010", "bytes": 16274589}, {"staticPath": "injection/203_long_context_zh/task_203_15_embodiment_long_horizon_ppt/sources/papers/doc_10.pdf", "sourceHash": "a3a4c239ad913019578a7de15ba982d39dbaa996", "bytes": 16274589}, {"staticPath": "injection/103_long_context/task_103_18_diffusion_video_blog/sources/papers/paper_04.pdf", "sourceHash": "9ae9865a9a58dfcaf417bdfbbb1dc091c6c65484", "bytes": 14464869}, {"staticPath": "injection/203_long_context_zh/task_203_18_diffusion_video_blog/sources/papers/paper_04.pdf", "sourceHash": "090f869519efee767b784b8a6101cba401da5472", "bytes": 14464869}, {"staticPath": "injection/103_long_context/task_103_15_embodiment_long_horizon_ppt/sources/papers/doc_08.pdf", "sourceHash": "177ce3a1110b00897464cc1e71cc9b3a1d629648", "bytes": 13951618}, {"staticPath": "injection/203_long_context_zh/task_203_15_embodiment_long_horizon_ppt/sources/papers/doc_08.pdf", "sourceHash": "ae474b0fa0014bc3cb34df68a746d0be90a42920", "bytes": 13951618}, {"staticPath": "injection/103_long_context/task_103_21_VLM_blog/sources/papers/paper_03.pdf", "sourceHash": "0d5f0bca36a6745b57c0c4e4cee150e299ea9b7f", "bytes": 13600693}, {"staticPath": "injection/203_long_context_zh/task_203_21_VLM_blog/sources/papers/paper_03.pdf", "sourceHash": "45c0d7b722ba5bb44fbfb335b073f4a86dd5e2ff", "bytes": 13600693}, {"staticPath": "injection/101_skill_usage/task_101_09_git_digest/sources/flask_repo.tar.gz", "sourceHash": "9073a7566633c1ebe8f72a8c69a0323b4fe3a85b", "bytes": 13106382}, {"staticPath": "injection/101_skill_usage/task_101_29_flask_hotspots_2yr/sources/flask_repo.tar.gz", "sourceHash": "1e0fc96d76d0459daa98525bea38a2c610cc2347", "bytes": 13106382}, {"staticPath": "injection/201_skill_usage_zh/task_201_09_git_digest/sources/flask_repo.tar.gz", "sourceHash": "3563e08829f42c7ee0f560ccc208596bf59e9e24", "bytes": 13106382}, {"staticPath": "injection/201_skill_usage_zh/task_201_29_flask_hotspots_2yr/sources/flask_repo.tar.gz", "sourceHash": "6edb7bd265360fc8bd2df7551e28e1fd266866b4", "bytes": 13106382}, {"staticPath": "injection/103_long_context/task_103_16_diffusion_blog/sources/papers/paper_04.pdf", "sourceHash": "ee42e205c0cfaed160fef92b26dd368d3a72e858", "bytes": 12442086}, {"staticPath": "injection/203_long_context_zh/task_203_16_diffusion_blog/sources/papers/paper_04.pdf", "sourceHash": "1839f35e35fed04b589dee3a5e7a92d71723de38", "bytes": 12442086}, {"staticPath": "injection/103_long_context/task_103_18_diffusion_video_blog/sources/papers/paper_05.pdf", "sourceHash": "99ae9f1c04b1218818b9fe5683995accbad07ee2", "bytes": 12061068}, {"staticPath": "injection/203_long_context_zh/task_203_18_diffusion_video_blog/sources/papers/paper_05.pdf", "sourceHash": "45e14d87938d92e144adee5850e3e22cd555f44e", "bytes": 12061068}, {"staticPath": "injection/103_long_context/task_103_15_embodiment_long_horizon_ppt/sources/papers/doc_01.pdf", "sourceHash": "9d30632e3bb0037be74b14df0ed4e61016a32cc5", "bytes": 11395915}, {"staticPath": "injection/203_long_context_zh/task_203_15_embodiment_long_horizon_ppt/sources/papers/doc_01.pdf", "sourceHash": "cb99e45972521e4e034984bf95ab25b8d7743c7f", "bytes": 11395915}, {"staticPath": "injection/103_long_context/task_103_16_diffusion_blog/sources/papers/paper_05.pdf", "sourceHash": "f90b84f1badc0136bf23f3f8839049061a00cfc8", "bytes": 10857218}, {"staticPath": "injection/203_long_context_zh/task_203_16_diffusion_blog/sources/papers/paper_05.pdf", "sourceHash": "3694e5c75a04a64ddcc32e946b6274b4639dfc8f", "bytes": 10857218}, {"staticPath": "injection/103_long_context/task_103_18_diffusion_video_blog/sources/papers/paper_06.pdf", "sourceHash": "b71699bcab7b5fffb742ed437fba074cb1a2d86d", "bytes": 10598235}, {"staticPath": "injection/203_long_context_zh/task_203_18_diffusion_video_blog/sources/papers/paper_06.pdf", "sourceHash": "614a07e1265df2700d739ada7171b443849cdffa", "bytes": 10598235}, {"staticPath": "injection/103_long_context/task_103_16_diffusion_blog/sources/papers/paper_02.pdf", "sourceHash": "f40c868cbba8ddcb7d868276805881a15c1ae4d6", "bytes": 10267274}, {"staticPath": "injection/203_long_context_zh/task_203_16_diffusion_blog/sources/papers/paper_02.pdf", "sourceHash": "1401c7ecdd7d8b3e06f3f38765bf3138b75b1146", "bytes": 10267274}, {"staticPath": "injection/103_long_context/task_103_21_VLM_blog/sources/papers/paper_04.pdf", "sourceHash": "711c38b9829e0779724f4e3605954ea1257fd38a", "bytes": 9493745}, {"staticPath": "injection/203_long_context_zh/task_203_21_VLM_blog/sources/papers/paper_04.pdf", "sourceHash": "f8ee9d4b226cac2fe5001c681d06c64af6bb30cf", "bytes": 9493745}, {"staticPath": "injection/103_long_context/task_103_15_embodiment_long_horizon_ppt/sources/papers/doc_04.pdf", "sourceHash": "016018825d6b1e38d94712170c56ac542df92e1a", "bytes": 9374922}, {"staticPath": "injection/203_long_context_zh/task_203_15_embodiment_long_horizon_ppt/sources/papers/doc_04.pdf", "sourceHash": "7641918e17a3820779fcd868446ba0254903afdf", "bytes": 9374922}, {"staticPath": "injection/103_long_context/task_103_15_embodiment_long_horizon_ppt/sources/papers/doc_05.pdf", "sourceHash": "aca249989108644d2d31f02377ca98b33cb3aea0", "bytes": 9037715}, {"staticPath": "injection/203_long_context_zh/task_203_15_embodiment_long_horizon_ppt/sources/papers/doc_05.pdf", "sourceHash": "60ac31c695710e52dddb73417432945845f787b2", "bytes": 9037715}, {"staticPath": "injection/103_long_context/task_103_18_diffusion_video_blog/sources/papers/paper_03.pdf", "sourceHash": "eaa559ab32c72dd35e64ccc1d2f7e8cb164c4001", "bytes": 8893839}, {"staticPath": "injection/203_long_context_zh/task_203_18_diffusion_video_blog/sources/papers/paper_03.pdf", "sourceHash": "71628b885356d39cbc0244dfa49014fe8b971a94", "bytes": 8893839}, {"staticPath": "injection/103_long_context/task_103_19_RL_blog/sources/papers/paper_07.pdf", "sourceHash": "9f072b8b767f8c6d27d614b3d8dc9551ec910a15", "bytes": 8178582}, {"staticPath": "injection/203_long_context_zh/task_203_19_RL_blog/sources/papers/paper_07.pdf", "sourceHash": "533495e8583dbe442106dc9bc19fd4ad2e2e295e", "bytes": 8178582}, {"staticPath": "injection/103_long_context/task_103_16_diffusion_blog/sources/papers/paper_03.pdf", "sourceHash": "f2b657b7bf5a0b2b1a5a0b787b4e030a9df8a8c4", "bytes": 8113050}, {"staticPath": "injection/203_long_context_zh/task_203_16_diffusion_blog/sources/papers/paper_03.pdf", "sourceHash": "1b192db7451ad0c0a24e4febf86e6ecd38ee193f", "bytes": 8113050}, {"staticPath": "injection/103_long_context/task_103_18_diffusion_video_blog/sources/papers/paper_02.pdf", "sourceHash": "54f77d45b8faeda956ba81204be7f045e3cba67b", "bytes": 8008990}, {"staticPath": "injection/203_long_context_zh/task_203_18_diffusion_video_blog/sources/papers/paper_02.pdf", "sourceHash": "301bbcba056173afd7f5f61ce46e033787ce807c", "bytes": 8008990}, {"staticPath": "injection/101_skill_usage/task_101_03_access_log_regex/sources/access.log", "sourceHash": "7cbf162d4ee38e2880a66c09f2eddd25a72ca0f0", "bytes": 7681680}, {"staticPath": "injection/201_skill_usage_zh/task_201_03_access_log_regex/sources/access.log", "sourceHash": "a4e4c4b779a60290ccfba9173954148082289a50", "bytes": 7681680}, {"staticPath": "injection/103_long_context/task_103_20_transformer_blog/sources/papers/paper_04.pdf", "sourceHash": "b9d688341e0322d9ec90384ac25fdc571622e19b", "bytes": 5378996}, {"staticPath": "injection/203_long_context_zh/task_203_20_transformer_blog/sources/papers/paper_04.pdf", "sourceHash": "1691ff41fe381af64356c8e4e5b3f1d4c45bc7af", "bytes": 5378996}, {"staticPath": "injection/104_multimodal/task_104_13_outfit_planning/sources/outfit_planning/item_05.png", "sourceHash": "2828fba78c2e4bbf5ac26681a5033fba02568d90", "bytes": 5212571}, {"staticPath": "injection/204_multimodal_zh/task_204_13_outfit_planning/sources/outfit_planning/item_05.png", "sourceHash": "7e127e15f438589bc56a6e36529746a94458d3f6", "bytes": 5212571}, {"staticPath": "injection/103_long_context/task_103_17_hallucination_blog/sources/papers/paper_01.pdf", "sourceHash": "06e8d759f54481b6d3ac8b3420bf4a74d536d190", "bytes": 5046143}, {"staticPath": "injection/203_long_context_zh/task_203_17_hallucination_blog/sources/papers/paper_01.pdf", "sourceHash": "07ae36f396ed4407bebb0f7c0cf55f0a0bd46059", "bytes": 5046143}, {"staticPath": "injection/103_long_context/task_103_15_embodiment_long_horizon_ppt/sources/papers/doc_06.pdf", "sourceHash": "c602b80e4dcd274d206a9a46d8e9152d4e3b621a", "bytes": 4733564}, {"staticPath": "injection/203_long_context_zh/task_203_15_embodiment_long_horizon_ppt/sources/papers/doc_06.pdf", "sourceHash": "e33129773fb45af31166795c14300f4f0ca92243", "bytes": 4733564}, {"staticPath": "injection/103_long_context/task_103_16_diffusion_blog/sources/papers/paper_01.pdf", "sourceHash": "ba8bbe8ac691b96e76752d22da96c9c240895b69", "bytes": 4355107}, {"staticPath": "injection/203_long_context_zh/task_203_16_diffusion_blog/sources/papers/paper_01.pdf", "sourceHash": "2014c57b3b19983778e9f29582b0487f7f5179b7", "bytes": 4355107}, {"staticPath": "injection/103_long_context/task_103_19_RL_blog/sources/papers/paper_02.pdf", "sourceHash": "b6ed7d3d2fb0eec9f1d281b6cc3749b61f186d1e", "bytes": 4158487}, {"staticPath": "injection/203_long_context_zh/task_203_19_RL_blog/sources/papers/paper_02.pdf", "sourceHash": "47890f3e87f7a5127ac6732aa6bd81e826a0288c", "bytes": 4158487}, {"staticPath": "injection/103_long_context/task_103_21_VLM_blog/sources/papers/paper_06.pdf", "sourceHash": "841a0db227e2e2476aabd2d0796e1e2514f34e2b", "bytes": 4092626}, {"staticPath": "injection/203_long_context_zh/task_203_21_VLM_blog/sources/papers/paper_06.pdf", "sourceHash": "11e7f22fb32f0dbe4556e3c2c3af1038ee4f0546", "bytes": 4092626}, {"staticPath": "injection/104_multimodal/task_104_24_fight_scene_movie_cards/sources/classic_movie_compilation.mp4", "sourceHash": "e30487a9ef727d1efd73800d9743f77e553899ae", "bytes": 4087965}, {"staticPath": "injection/204_multimodal_zh/task_204_24_fight_scene_movie_cards/sources/classic_movie_compilation.mp4", "sourceHash": "b7543b416d333c44995d8f7cd0493dc39eacc47a", "bytes": 4087965}, {"staticPath": "injection/103_long_context/task_103_20_transformer_blog/sources/papers/paper_07.pdf", "sourceHash": "9bc60d1873fae75b985cd0866f9feba3e53cfaee", "bytes": 3918653}, {"staticPath": "injection/203_long_context_zh/task_203_20_transformer_blog/sources/papers/paper_07.pdf", "sourceHash": "95a966e495b6789a2631928ae315ff0d7a69c0c2", "bytes": 3918653}, {"staticPath": "injection/103_long_context/task_103_21_VLM_blog/sources/papers/paper_08.pdf", "sourceHash": "d5f9af4af3c93002f3528f18a4ace9568cfce4c4", "bytes": 3892223}, {"staticPath": "injection/203_long_context_zh/task_203_21_VLM_blog/sources/papers/paper_08.pdf", "sourceHash": "9e112282c82a57a4ef107c815b1be8ff8c2b6c8f", "bytes": 3892223}, {"staticPath": "injection/104_multimodal/task_104_32_home_of_the_blues_lrc/sources/song.mp3", "sourceHash": "5a8f23956693a2fbfb152bbd70d60aa326cf8ef2", "bytes": 3854636}, {"staticPath": "injection/204_multimodal_zh/task_204_32_home_of_the_blues_lrc/sources/song.mp3", "sourceHash": "7231b78ff93d8cbebecf99296f3dbf4ac5844aa6", "bytes": 3854636}, {"staticPath": "injection/104_multimodal/task_104_31_bye_bye_love_lrc/sources/song.mp3", "sourceHash": "58ef2a2a3c07133b08b3a6a9f93c2d5001266c4a", "bytes": 3455012}, {"staticPath": "injection/204_multimodal_zh/task_204_31_bye_bye_love_lrc/sources/song.mp3", "sourceHash": "4aabf4f9cb1717eb97f358f22a169770994108c0", "bytes": 3455012}, {"staticPath": "injection/105_cross_platform/task_105_02_week32_receipts_gui_calc_writer/sources/receipts/week_32/receipt_03.jpg", "sourceHash": "ef08e28986acc838ce60bc28cfce57b9ac9976cd", "bytes": 3432586}, {"staticPath": "injection/205_cross_platform_zh/task_205_02_week32_receipts_gui_calc_writer/sources/receipts/week_32/receipt_03.jpg", "sourceHash": "e8373fced09bb00629ae2c45a2d6283e7542a482", "bytes": 3432586}, {"staticPath": "injection/103_long_context/task_103_15_embodiment_long_horizon_ppt/sources/papers/doc_07.pdf", "sourceHash": "8c2353ed8062f19172692033f194a635873f5bcb", "bytes": 3407996}, {"staticPath": "injection/203_long_context_zh/task_203_15_embodiment_long_horizon_ppt/sources/papers/doc_07.pdf", "sourceHash": "b87093c35abad491c80a9de495dec2684d0a0408", "bytes": 3407996}, {"staticPath": "injection/103_long_context/task_103_21_VLM_blog/sources/papers/paper_07.pdf", "sourceHash": "b0e331c965757689424777b0b87dea05ee818dea", "bytes": 3219456}, {"staticPath": "injection/203_long_context_zh/task_203_21_VLM_blog/sources/papers/paper_07.pdf", "sourceHash": "00e892fc7d1d9490ec2795aa1fc1b5135591a070", "bytes": 3219456}, {"staticPath": "injection/103_long_context/task_103_19_RL_blog/sources/papers/paper_05.pdf", "sourceHash": "be0762d3d52163f456b393e72823e3753c894414", "bytes": 3186215}, {"staticPath": "injection/203_long_context_zh/task_203_19_RL_blog/sources/papers/paper_05.pdf", "sourceHash": "c4c7a57688f5a6f7295d648c92fc24ddd37ee4eb", "bytes": 3186215}, {"staticPath": "injection/103_long_context/task_103_21_VLM_blog/sources/papers/paper_01.pdf", "sourceHash": "c73bb5296d5e11a44baf393cd7fa0d713e120052", "bytes": 3092509}, {"staticPath": "injection/203_long_context_zh/task_203_21_VLM_blog/sources/papers/paper_01.pdf", "sourceHash": "c45337d91d742b1a341049ba823a292f7bf122cd", "bytes": 3092509}, {"staticPath": "injection/101_skill_usage/task_101_28_meeting_structure/sources/meeting.mp4", "sourceHash": "69c0a681205b00c7a97b712a26b722fe6fbfba67", "bytes": 3023978}, {"staticPath": "injection/201_skill_usage_zh/task_201_28_meeting_structure/sources/meeting.mp4", "sourceHash": "5818600b6a13cf08e5ffa2499ad1a35720f341ac", "bytes": 3023978}, {"staticPath": "injection/104_multimodal/task_104_35_love_is_strange_lrc/sources/song.mp3", "sourceHash": "86ffa1d5943d8aa3c33658974b7a2ea85b072a2c", "bytes": 2902364}, {"staticPath": "injection/204_multimodal_zh/task_204_35_love_is_strange_lrc/sources/song.mp3", "sourceHash": "9c549cf1d7c86005eac71f1612ec3b88edb7e1e0", "bytes": 2902364}, {"staticPath": "injection/101_skill_usage/task_101_39_music_analysis/sources/song.wav", "sourceHash": "0002e7a15cc39dba378be8ffe1730453e40f887e", "bytes": 2754044}, {"staticPath": "injection/201_skill_usage_zh/task_201_39_music_analysis/sources/song.wav", "sourceHash": "c6aa3d00ac65659ab81b5d2c8abd2d40075f6317", "bytes": 2754044}]}
+{
+  "schema": "clawbench.static.v2",
+  "kind": "asset_manifest",
+  "asset_mode": "lite",
+  "trace_detail_policy": "selected",
+  "asset_base_url": "https://pub-49f361a4a3164b99ad7a6b43b9add9a8.r2.dev",
+  "asset_count": 21018,
+  "asset_bytes": 1812339500,
+  "largest_assets": [
+    {
+      "staticPath": "injection/104_multimodal/task_104_40_impact_first180s_subtitles/sources/clip.mp4",
+      "sourceHash": "26fbfad589eeeecad63a93f7c27f6b2cb2cefb59",
+      "bytes": 63500279
+    },
+    {
+      "staticPath": "injection/204_multimodal_zh/task_204_40_impact_first180s_subtitles/sources/clip.mp4",
+      "sourceHash": "70fd8a244bdae4e137f705c20d6110456fa9773e",
+      "bytes": 63500279
+    },
+    {
+      "staticPath": "injection/104_multimodal/task_104_38_suddenly_first120s_subtitles/sources/clip.mp4",
+      "sourceHash": "e27ab6e56688206f295aa5820def94dd52c0a821",
+      "bytes": 60594246
+    },
+    {
+      "staticPath": "injection/204_multimodal_zh/task_204_38_suddenly_first120s_subtitles/sources/clip.mp4",
+      "sourceHash": "f4f739addc55acf11c29688fa0863c9845636917",
+      "bytes": 60594246
+    },
+    {
+      "staticPath": "injection/104_multimodal/task_104_37_dressed_to_kill_dialogue_subtitles/sources/clip.mp4",
+      "sourceHash": "b6e94c88f2fe66bdf0b33e1c44b7a72f0f086bc7",
+      "bytes": 56755522
+    },
+    {
+      "staticPath": "injection/204_multimodal_zh/task_204_37_dressed_to_kill_dialogue_subtitles/sources/clip.mp4",
+      "sourceHash": "bc5424d42f2a43f38b5d1ccda01816fe61bac8ea",
+      "bytes": 56755522
+    },
+    {
+      "staticPath": "injection/104_multimodal/task_104_39_meet_john_doe_first90s_subtitles/sources/clip.mp4",
+      "sourceHash": "a1dcadf3ad6ccb9e4ef82b632de81b87dacf03bc",
+      "bytes": 49409742
+    },
+    {
+      "staticPath": "injection/204_multimodal_zh/task_204_39_meet_john_doe_first90s_subtitles/sources/clip.mp4",
+      "sourceHash": "86644c7d2c3809c35dbd2c71c68484ddb7fa74aa",
+      "bytes": 49409742
+    },
+    {
+      "staticPath": "injection/104_multimodal/task_104_36_his_girl_friday_dialogue_subtitles/sources/clip.mp4",
+      "sourceHash": "f42c2c120551ab27b23cf6bf43e289c5320801b3",
+      "bytes": 48757443
+    },
+    {
+      "staticPath": "injection/204_multimodal_zh/task_204_36_his_girl_friday_dialogue_subtitles/sources/clip.mp4",
+      "sourceHash": "861eb8643c1bf8e559ef8a61051c2ba9460ed00b",
+      "bytes": 48757443
+    },
+    {
+      "staticPath": "injection/103_long_context/task_103_16_diffusion_blog/sources/papers/paper_06.pdf",
+      "sourceHash": "83c564d478aaa29fc6a5aef9cc36fc79f12a7fbf",
+      "bytes": 40842586
+    },
+    {
+      "staticPath": "injection/203_long_context_zh/task_203_16_diffusion_blog/sources/papers/paper_06.pdf",
+      "sourceHash": "eb1b225dabe3977a4ea1774180d103c7b06e05d1",
+      "bytes": 40842586
+    },
+    {
+      "staticPath": "injection/103_long_context/task_103_21_VLM_blog/sources/papers/paper_05.pdf",
+      "sourceHash": "2745b731b198383c47345d47f5219a47447c00ef",
+      "bytes": 31579390
+    },
+    {
+      "staticPath": "injection/203_long_context_zh/task_203_21_VLM_blog/sources/papers/paper_05.pdf",
+      "sourceHash": "a78a2783c79ab6c6f95c2671298104587e79b7da",
+      "bytes": 31579390
+    },
+    {
+      "staticPath": "injection/103_long_context/task_103_18_diffusion_video_blog/sources/papers/paper_08.pdf",
+      "sourceHash": "762e6f925169deacb17fbd576b47b5c93bebb248",
+      "bytes": 26789812
+    },
+    {
+      "staticPath": "injection/203_long_context_zh/task_203_18_diffusion_video_blog/sources/papers/paper_08.pdf",
+      "sourceHash": "d67865227b15ee3a4dff1bd8ad09c660ad98027f",
+      "bytes": 26789812
+    },
+    {
+      "staticPath": "injection/103_long_context/task_103_18_diffusion_video_blog/sources/papers/paper_07.pdf",
+      "sourceHash": "1c3063fb4d1e65685237f0f6b922708026cb9e64",
+      "bytes": 22261780
+    },
+    {
+      "staticPath": "injection/203_long_context_zh/task_203_18_diffusion_video_blog/sources/papers/paper_07.pdf",
+      "sourceHash": "7b28d23bbf320b269164dcea7118ffb129d31eb8",
+      "bytes": 22261780
+    },
+    {
+      "staticPath": "injection/103_long_context/task_103_15_embodiment_long_horizon_ppt/sources/papers/doc_03.pdf",
+      "sourceHash": "5026317b0fade7a086f8d7db4e33395456d1e6b8",
+      "bytes": 18830859
+    },
+    {
+      "staticPath": "injection/203_long_context_zh/task_203_15_embodiment_long_horizon_ppt/sources/papers/doc_03.pdf",
+      "sourceHash": "3eec5b93df6b30f16debbd12e1b979538e4ca46d",
+      "bytes": 18830859
+    },
+    {
+      "staticPath": "injection/103_long_context/task_103_15_embodiment_long_horizon_ppt/sources/papers/doc_10.pdf",
+      "sourceHash": "831e7a429608fcfbc2660038c01ac5b8aa1f9010",
+      "bytes": 16274589
+    },
+    {
+      "staticPath": "injection/203_long_context_zh/task_203_15_embodiment_long_horizon_ppt/sources/papers/doc_10.pdf",
+      "sourceHash": "a3a4c239ad913019578a7de15ba982d39dbaa996",
+      "bytes": 16274589
+    },
+    {
+      "staticPath": "injection/103_long_context/task_103_18_diffusion_video_blog/sources/papers/paper_04.pdf",
+      "sourceHash": "9ae9865a9a58dfcaf417bdfbbb1dc091c6c65484",
+      "bytes": 14464869
+    },
+    {
+      "staticPath": "injection/203_long_context_zh/task_203_18_diffusion_video_blog/sources/papers/paper_04.pdf",
+      "sourceHash": "090f869519efee767b784b8a6101cba401da5472",
+      "bytes": 14464869
+    },
+    {
+      "staticPath": "injection/103_long_context/task_103_15_embodiment_long_horizon_ppt/sources/papers/doc_08.pdf",
+      "sourceHash": "177ce3a1110b00897464cc1e71cc9b3a1d629648",
+      "bytes": 13951618
+    },
+    {
+      "staticPath": "injection/203_long_context_zh/task_203_15_embodiment_long_horizon_ppt/sources/papers/doc_08.pdf",
+      "sourceHash": "ae474b0fa0014bc3cb34df68a746d0be90a42920",
+      "bytes": 13951618
+    },
+    {
+      "staticPath": "injection/103_long_context/task_103_21_VLM_blog/sources/papers/paper_03.pdf",
+      "sourceHash": "0d5f0bca36a6745b57c0c4e4cee150e299ea9b7f",
+      "bytes": 13600693
+    },
+    {
+      "staticPath": "injection/203_long_context_zh/task_203_21_VLM_blog/sources/papers/paper_03.pdf",
+      "sourceHash": "45c0d7b722ba5bb44fbfb335b073f4a86dd5e2ff",
+      "bytes": 13600693
+    },
+    {
+      "staticPath": "injection/101_skill_usage/task_101_09_git_digest/sources/flask_repo.tar.gz",
+      "sourceHash": "9073a7566633c1ebe8f72a8c69a0323b4fe3a85b",
+      "bytes": 13106382
+    },
+    {
+      "staticPath": "injection/101_skill_usage/task_101_29_flask_hotspots_2yr/sources/flask_repo.tar.gz",
+      "sourceHash": "1e0fc96d76d0459daa98525bea38a2c610cc2347",
+      "bytes": 13106382
+    },
+    {
+      "staticPath": "injection/201_skill_usage_zh/task_201_09_git_digest/sources/flask_repo.tar.gz",
+      "sourceHash": "3563e08829f42c7ee0f560ccc208596bf59e9e24",
+      "bytes": 13106382
+    },
+    {
+      "staticPath": "injection/201_skill_usage_zh/task_201_29_flask_hotspots_2yr/sources/flask_repo.tar.gz",
+      "sourceHash": "6edb7bd265360fc8bd2df7551e28e1fd266866b4",
+      "bytes": 13106382
+    },
+    {
+      "staticPath": "injection/103_long_context/task_103_16_diffusion_blog/sources/papers/paper_04.pdf",
+      "sourceHash": "ee42e205c0cfaed160fef92b26dd368d3a72e858",
+      "bytes": 12442086
+    },
+    {
+      "staticPath": "injection/203_long_context_zh/task_203_16_diffusion_blog/sources/papers/paper_04.pdf",
+      "sourceHash": "1839f35e35fed04b589dee3a5e7a92d71723de38",
+      "bytes": 12442086
+    },
+    {
+      "staticPath": "injection/103_long_context/task_103_18_diffusion_video_blog/sources/papers/paper_05.pdf",
+      "sourceHash": "99ae9f1c04b1218818b9fe5683995accbad07ee2",
+      "bytes": 12061068
+    },
+    {
+      "staticPath": "injection/203_long_context_zh/task_203_18_diffusion_video_blog/sources/papers/paper_05.pdf",
+      "sourceHash": "45e14d87938d92e144adee5850e3e22cd555f44e",
+      "bytes": 12061068
+    },
+    {
+      "staticPath": "injection/103_long_context/task_103_15_embodiment_long_horizon_ppt/sources/papers/doc_01.pdf",
+      "sourceHash": "9d30632e3bb0037be74b14df0ed4e61016a32cc5",
+      "bytes": 11395915
+    },
+    {
+      "staticPath": "injection/203_long_context_zh/task_203_15_embodiment_long_horizon_ppt/sources/papers/doc_01.pdf",
+      "sourceHash": "cb99e45972521e4e034984bf95ab25b8d7743c7f",
+      "bytes": 11395915
+    },
+    {
+      "staticPath": "injection/103_long_context/task_103_16_diffusion_blog/sources/papers/paper_05.pdf",
+      "sourceHash": "f90b84f1badc0136bf23f3f8839049061a00cfc8",
+      "bytes": 10857218
+    },
+    {
+      "staticPath": "injection/203_long_context_zh/task_203_16_diffusion_blog/sources/papers/paper_05.pdf",
+      "sourceHash": "3694e5c75a04a64ddcc32e946b6274b4639dfc8f",
+      "bytes": 10857218
+    },
+    {
+      "staticPath": "injection/103_long_context/task_103_18_diffusion_video_blog/sources/papers/paper_06.pdf",
+      "sourceHash": "b71699bcab7b5fffb742ed437fba074cb1a2d86d",
+      "bytes": 10598235
+    },
+    {
+      "staticPath": "injection/203_long_context_zh/task_203_18_diffusion_video_blog/sources/papers/paper_06.pdf",
+      "sourceHash": "614a07e1265df2700d739ada7171b443849cdffa",
+      "bytes": 10598235
+    },
+    {
+      "staticPath": "injection/103_long_context/task_103_16_diffusion_blog/sources/papers/paper_02.pdf",
+      "sourceHash": "f40c868cbba8ddcb7d868276805881a15c1ae4d6",
+      "bytes": 10267274
+    },
+    {
+      "staticPath": "injection/203_long_context_zh/task_203_16_diffusion_blog/sources/papers/paper_02.pdf",
+      "sourceHash": "1401c7ecdd7d8b3e06f3f38765bf3138b75b1146",
+      "bytes": 10267274
+    },
+    {
+      "staticPath": "injection/103_long_context/task_103_21_VLM_blog/sources/papers/paper_04.pdf",
+      "sourceHash": "711c38b9829e0779724f4e3605954ea1257fd38a",
+      "bytes": 9493745
+    },
+    {
+      "staticPath": "injection/203_long_context_zh/task_203_21_VLM_blog/sources/papers/paper_04.pdf",
+      "sourceHash": "f8ee9d4b226cac2fe5001c681d06c64af6bb30cf",
+      "bytes": 9493745
+    },
+    {
+      "staticPath": "injection/103_long_context/task_103_15_embodiment_long_horizon_ppt/sources/papers/doc_04.pdf",
+      "sourceHash": "016018825d6b1e38d94712170c56ac542df92e1a",
+      "bytes": 9374922
+    },
+    {
+      "staticPath": "injection/203_long_context_zh/task_203_15_embodiment_long_horizon_ppt/sources/papers/doc_04.pdf",
+      "sourceHash": "7641918e17a3820779fcd868446ba0254903afdf",
+      "bytes": 9374922
+    },
+    {
+      "staticPath": "injection/103_long_context/task_103_15_embodiment_long_horizon_ppt/sources/papers/doc_05.pdf",
+      "sourceHash": "aca249989108644d2d31f02377ca98b33cb3aea0",
+      "bytes": 9037715
+    },
+    {
+      "staticPath": "injection/203_long_context_zh/task_203_15_embodiment_long_horizon_ppt/sources/papers/doc_05.pdf",
+      "sourceHash": "60ac31c695710e52dddb73417432945845f787b2",
+      "bytes": 9037715
+    },
+    {
+      "staticPath": "injection/103_long_context/task_103_18_diffusion_video_blog/sources/papers/paper_03.pdf",
+      "sourceHash": "eaa559ab32c72dd35e64ccc1d2f7e8cb164c4001",
+      "bytes": 8893839
+    },
+    {
+      "staticPath": "injection/203_long_context_zh/task_203_18_diffusion_video_blog/sources/papers/paper_03.pdf",
+      "sourceHash": "71628b885356d39cbc0244dfa49014fe8b971a94",
+      "bytes": 8893839
+    },
+    {
+      "staticPath": "injection/103_long_context/task_103_19_RL_blog/sources/papers/paper_07.pdf",
+      "sourceHash": "9f072b8b767f8c6d27d614b3d8dc9551ec910a15",
+      "bytes": 8178582
+    },
+    {
+      "staticPath": "injection/203_long_context_zh/task_203_19_RL_blog/sources/papers/paper_07.pdf",
+      "sourceHash": "533495e8583dbe442106dc9bc19fd4ad2e2e295e",
+      "bytes": 8178582
+    },
+    {
+      "staticPath": "injection/103_long_context/task_103_16_diffusion_blog/sources/papers/paper_03.pdf",
+      "sourceHash": "f2b657b7bf5a0b2b1a5a0b787b4e030a9df8a8c4",
+      "bytes": 8113050
+    },
+    {
+      "staticPath": "injection/203_long_context_zh/task_203_16_diffusion_blog/sources/papers/paper_03.pdf",
+      "sourceHash": "1b192db7451ad0c0a24e4febf86e6ecd38ee193f",
+      "bytes": 8113050
+    },
+    {
+      "staticPath": "injection/103_long_context/task_103_18_diffusion_video_blog/sources/papers/paper_02.pdf",
+      "sourceHash": "54f77d45b8faeda956ba81204be7f045e3cba67b",
+      "bytes": 8008990
+    },
+    {
+      "staticPath": "injection/203_long_context_zh/task_203_18_diffusion_video_blog/sources/papers/paper_02.pdf",
+      "sourceHash": "301bbcba056173afd7f5f61ce46e033787ce807c",
+      "bytes": 8008990
+    },
+    {
+      "staticPath": "injection/101_skill_usage/task_101_03_access_log_regex/sources/access.log",
+      "sourceHash": "7cbf162d4ee38e2880a66c09f2eddd25a72ca0f0",
+      "bytes": 7681680
+    },
+    {
+      "staticPath": "injection/201_skill_usage_zh/task_201_03_access_log_regex/sources/access.log",
+      "sourceHash": "a4e4c4b779a60290ccfba9173954148082289a50",
+      "bytes": 7681680
+    },
+    {
+      "staticPath": "injection/103_long_context/task_103_20_transformer_blog/sources/papers/paper_04.pdf",
+      "sourceHash": "b9d688341e0322d9ec90384ac25fdc571622e19b",
+      "bytes": 5378996
+    },
+    {
+      "staticPath": "injection/203_long_context_zh/task_203_20_transformer_blog/sources/papers/paper_04.pdf",
+      "sourceHash": "1691ff41fe381af64356c8e4e5b3f1d4c45bc7af",
+      "bytes": 5378996
+    },
+    {
+      "staticPath": "injection/104_multimodal/task_104_13_outfit_planning/sources/outfit_planning/item_05.png",
+      "sourceHash": "2828fba78c2e4bbf5ac26681a5033fba02568d90",
+      "bytes": 5212571
+    },
+    {
+      "staticPath": "injection/204_multimodal_zh/task_204_13_outfit_planning/sources/outfit_planning/item_05.png",
+      "sourceHash": "7e127e15f438589bc56a6e36529746a94458d3f6",
+      "bytes": 5212571
+    },
+    {
+      "staticPath": "injection/103_long_context/task_103_17_hallucination_blog/sources/papers/paper_01.pdf",
+      "sourceHash": "06e8d759f54481b6d3ac8b3420bf4a74d536d190",
+      "bytes": 5046143
+    },
+    {
+      "staticPath": "injection/203_long_context_zh/task_203_17_hallucination_blog/sources/papers/paper_01.pdf",
+      "sourceHash": "07ae36f396ed4407bebb0f7c0cf55f0a0bd46059",
+      "bytes": 5046143
+    },
+    {
+      "staticPath": "injection/103_long_context/task_103_15_embodiment_long_horizon_ppt/sources/papers/doc_06.pdf",
+      "sourceHash": "c602b80e4dcd274d206a9a46d8e9152d4e3b621a",
+      "bytes": 4733564
+    },
+    {
+      "staticPath": "injection/203_long_context_zh/task_203_15_embodiment_long_horizon_ppt/sources/papers/doc_06.pdf",
+      "sourceHash": "e33129773fb45af31166795c14300f4f0ca92243",
+      "bytes": 4733564
+    },
+    {
+      "staticPath": "injection/103_long_context/task_103_16_diffusion_blog/sources/papers/paper_01.pdf",
+      "sourceHash": "ba8bbe8ac691b96e76752d22da96c9c240895b69",
+      "bytes": 4355107
+    },
+    {
+      "staticPath": "injection/203_long_context_zh/task_203_16_diffusion_blog/sources/papers/paper_01.pdf",
+      "sourceHash": "2014c57b3b19983778e9f29582b0487f7f5179b7",
+      "bytes": 4355107
+    },
+    {
+      "staticPath": "injection/103_long_context/task_103_19_RL_blog/sources/papers/paper_02.pdf",
+      "sourceHash": "b6ed7d3d2fb0eec9f1d281b6cc3749b61f186d1e",
+      "bytes": 4158487
+    },
+    {
+      "staticPath": "injection/203_long_context_zh/task_203_19_RL_blog/sources/papers/paper_02.pdf",
+      "sourceHash": "47890f3e87f7a5127ac6732aa6bd81e826a0288c",
+      "bytes": 4158487
+    },
+    {
+      "staticPath": "injection/103_long_context/task_103_21_VLM_blog/sources/papers/paper_06.pdf",
+      "sourceHash": "841a0db227e2e2476aabd2d0796e1e2514f34e2b",
+      "bytes": 4092626
+    },
+    {
+      "staticPath": "injection/203_long_context_zh/task_203_21_VLM_blog/sources/papers/paper_06.pdf",
+      "sourceHash": "11e7f22fb32f0dbe4556e3c2c3af1038ee4f0546",
+      "bytes": 4092626
+    },
+    {
+      "staticPath": "injection/104_multimodal/task_104_24_fight_scene_movie_cards/sources/classic_movie_compilation.mp4",
+      "sourceHash": "e30487a9ef727d1efd73800d9743f77e553899ae",
+      "bytes": 4087965
+    },
+    {
+      "staticPath": "injection/204_multimodal_zh/task_204_24_fight_scene_movie_cards/sources/classic_movie_compilation.mp4",
+      "sourceHash": "b7543b416d333c44995d8f7cd0493dc39eacc47a",
+      "bytes": 4087965
+    },
+    {
+      "staticPath": "injection/103_long_context/task_103_20_transformer_blog/sources/papers/paper_07.pdf",
+      "sourceHash": "9bc60d1873fae75b985cd0866f9feba3e53cfaee",
+      "bytes": 3918653
+    },
+    {
+      "staticPath": "injection/203_long_context_zh/task_203_20_transformer_blog/sources/papers/paper_07.pdf",
+      "sourceHash": "95a966e495b6789a2631928ae315ff0d7a69c0c2",
+      "bytes": 3918653
+    },
+    {
+      "staticPath": "injection/103_long_context/task_103_21_VLM_blog/sources/papers/paper_08.pdf",
+      "sourceHash": "d5f9af4af3c93002f3528f18a4ace9568cfce4c4",
+      "bytes": 3892223
+    },
+    {
+      "staticPath": "injection/203_long_context_zh/task_203_21_VLM_blog/sources/papers/paper_08.pdf",
+      "sourceHash": "9e112282c82a57a4ef107c815b1be8ff8c2b6c8f",
+      "bytes": 3892223
+    },
+    {
+      "staticPath": "injection/104_multimodal/task_104_32_home_of_the_blues_lrc/sources/song.mp3",
+      "sourceHash": "5a8f23956693a2fbfb152bbd70d60aa326cf8ef2",
+      "bytes": 3854636
+    },
+    {
+      "staticPath": "injection/204_multimodal_zh/task_204_32_home_of_the_blues_lrc/sources/song.mp3",
+      "sourceHash": "7231b78ff93d8cbebecf99296f3dbf4ac5844aa6",
+      "bytes": 3854636
+    },
+    {
+      "staticPath": "injection/104_multimodal/task_104_31_bye_bye_love_lrc/sources/song.mp3",
+      "sourceHash": "58ef2a2a3c07133b08b3a6a9f93c2d5001266c4a",
+      "bytes": 3455012
+    },
+    {
+      "staticPath": "injection/204_multimodal_zh/task_204_31_bye_bye_love_lrc/sources/song.mp3",
+      "sourceHash": "4aabf4f9cb1717eb97f358f22a169770994108c0",
+      "bytes": 3455012
+    },
+    {
+      "staticPath": "injection/105_cross_platform/task_105_02_week32_receipts_gui_calc_writer/sources/receipts/week_32/receipt_03.jpg",
+      "sourceHash": "ef08e28986acc838ce60bc28cfce57b9ac9976cd",
+      "bytes": 3432586
+    },
+    {
+      "staticPath": "injection/205_cross_platform_zh/task_205_02_week32_receipts_gui_calc_writer/sources/receipts/week_32/receipt_03.jpg",
+      "sourceHash": "e8373fced09bb00629ae2c45a2d6283e7542a482",
+      "bytes": 3432586
+    },
+    {
+      "staticPath": "injection/103_long_context/task_103_15_embodiment_long_horizon_ppt/sources/papers/doc_07.pdf",
+      "sourceHash": "8c2353ed8062f19172692033f194a635873f5bcb",
+      "bytes": 3407996
+    },
+    {
+      "staticPath": "injection/203_long_context_zh/task_203_15_embodiment_long_horizon_ppt/sources/papers/doc_07.pdf",
+      "sourceHash": "b87093c35abad491c80a9de495dec2684d0a0408",
+      "bytes": 3407996
+    },
+    {
+      "staticPath": "injection/103_long_context/task_103_21_VLM_blog/sources/papers/paper_07.pdf",
+      "sourceHash": "b0e331c965757689424777b0b87dea05ee818dea",
+      "bytes": 3219456
+    },
+    {
+      "staticPath": "injection/203_long_context_zh/task_203_21_VLM_blog/sources/papers/paper_07.pdf",
+      "sourceHash": "00e892fc7d1d9490ec2795aa1fc1b5135591a070",
+      "bytes": 3219456
+    },
+    {
+      "staticPath": "injection/103_long_context/task_103_19_RL_blog/sources/papers/paper_05.pdf",
+      "sourceHash": "be0762d3d52163f456b393e72823e3753c894414",
+      "bytes": 3186215
+    },
+    {
+      "staticPath": "injection/203_long_context_zh/task_203_19_RL_blog/sources/papers/paper_05.pdf",
+      "sourceHash": "c4c7a57688f5a6f7295d648c92fc24ddd37ee4eb",
+      "bytes": 3186215
+    },
+    {
+      "staticPath": "injection/103_long_context/task_103_21_VLM_blog/sources/papers/paper_01.pdf",
+      "sourceHash": "c73bb5296d5e11a44baf393cd7fa0d713e120052",
+      "bytes": 3092509
+    },
+    {
+      "staticPath": "injection/203_long_context_zh/task_203_21_VLM_blog/sources/papers/paper_01.pdf",
+      "sourceHash": "c45337d91d742b1a341049ba823a292f7bf122cd",
+      "bytes": 3092509
+    },
+    {
+      "staticPath": "injection/101_skill_usage/task_101_28_meeting_structure/sources/meeting.mp4",
+      "sourceHash": "69c0a681205b00c7a97b712a26b722fe6fbfba67",
+      "bytes": 3023978
+    },
+    {
+      "staticPath": "injection/201_skill_usage_zh/task_201_28_meeting_structure/sources/meeting.mp4",
+      "sourceHash": "5818600b6a13cf08e5ffa2499ad1a35720f341ac",
+      "bytes": 3023978
+    },
+    {
+      "staticPath": "injection/104_multimodal/task_104_35_love_is_strange_lrc/sources/song.mp3",
+      "sourceHash": "86ffa1d5943d8aa3c33658974b7a2ea85b072a2c",
+      "bytes": 2902364
+    },
+    {
+      "staticPath": "injection/204_multimodal_zh/task_204_35_love_is_strange_lrc/sources/song.mp3",
+      "sourceHash": "9c549cf1d7c86005eac71f1612ec3b88edb7e1e0",
+      "bytes": 2902364
+    },
+    {
+      "staticPath": "injection/101_skill_usage/task_101_39_music_analysis/sources/song.wav",
+      "sourceHash": "0002e7a15cc39dba378be8ffe1730453e40f887e",
+      "bytes": 2754044
+    },
+    {
+      "staticPath": "injection/201_skill_usage_zh/task_201_39_music_analysis/sources/song.wav",
+      "sourceHash": "c6aa3d00ac65659ab81b5d2c8abd2d40075f6317",
+      "bytes": 2754044
+    }
+  ],
+  "asset_split": true
+}

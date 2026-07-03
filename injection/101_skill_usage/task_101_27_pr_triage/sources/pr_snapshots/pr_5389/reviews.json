@@ -1,7 +1,0 @@
-[
-  {
-    "reviewer": "davidism",
-    "state": "APPROVED",
-    "comment": "Reasonable; the property may legitimately return any BaseLoader subclass. Renamed annotation before merge."
-  }
-]

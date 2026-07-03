@@ -24,8 +24,6 @@ jobs:
     steps:
       - name: Checkout static site
         uses: actions/checkout@v4
-        with:
-          lfs: true
 
       - name: Validate static bundle
         run: |
@@ -33,9 +31,16 @@ jobs:
           test -f 404.html
           test -f runs.json
           test -f results.json
+          test -f tasks.json
+          test -f asset-manifest.json
           test -d static
-          test -d attempts
           test -d task-details
+          test ! -d attempts
+          python - <<PY
+import json
+m=json.load(open("asset-manifest.json"))
+assert m.get("asset_base_url", "").startswith("https://pub-"), m.get("asset_base_url")
+PY
           touch .nojekyll
 
       - name: Configure Pages

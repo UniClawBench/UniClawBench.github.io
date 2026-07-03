@@ -1269,9 +1269,13 @@ function uniqueTasks(tasks, aggregate) {
 
 function passRateFromRows(rows) {
   if (!Array.isArray(rows) || !rows.length) return null;
-  const terminal = rows.filter((row) => row.passed !== undefined || row.finalStatus);
-  if (!terminal.length) return null;
-  return terminal.filter((row) => row.passed || row.finalStatus === "pass").length / terminal.length;
+  const scored = rows.filter((row) => typeof row?.passed === "boolean");
+  if (!scored.length) return null;
+  return scored.filter(isPassedRow).length / scored.length;
+}
+
+function isPassedRow(row) {
+  return row?.passed === true;
 }
 
 function capabilityCounts(tasks) {
@@ -1361,7 +1365,7 @@ function aggregateClientModels(rows) {
       label: slot.label,
       total: {
         n,
-        pass_rate: n ? slot.values.filter((row) => row.passed || row.finalStatus === "pass").length / n : null,
+        pass_rate: n ? slot.values.filter(isPassedRow).length / n : null,
         avg_score: n ? slot.values.reduce((sum, row) => sum + Number(row.score ?? row.finalScore ?? 0), 0) / n : null,
       },
     };
@@ -1407,7 +1411,7 @@ function summarizeRows(slot) {
     label: slot.label,
     total: {
       n,
-      pass_rate: n ? slot.values.filter((row) => row.passed || row.finalStatus === "pass").length / n : null,
+      pass_rate: n ? slot.values.filter(isPassedRow).length / n : null,
       avg_score: n ? slot.values.reduce((sum, row) => sum + Number(row.score ?? row.finalScore ?? 0), 0) / n : null,
     },
   };
