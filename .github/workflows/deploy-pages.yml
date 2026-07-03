@@ -36,11 +36,7 @@ jobs:
           test -d static
           test -d task-details
           test ! -d attempts
-          python - <<PY
-import json
-m=json.load(open("asset-manifest.json"))
-assert m.get("asset_base_url", "").startswith("https://pub-"), m.get("asset_base_url")
-PY
+          python -c 'import json; m=json.load(open("asset-manifest.json")); assert m.get("asset_base_url", "").startswith("https://pub-"), m.get("asset_base_url")'
           touch .nojekyll
 
       - name: Configure Pages
@@ -56,3 +52,4 @@ PY
       - name: Deploy Pages
         id: deployment
         uses: actions/deploy-pages@v4
+
