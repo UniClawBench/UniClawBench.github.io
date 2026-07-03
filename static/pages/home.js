@@ -11,7 +11,7 @@ const PAPER_FIGURES = {
   coverage: "assets/paper/statistics_heatmaps_combined_wide_web.png",
   tokens: "assets/paper/token_and_user_web.png",
 };
-const DEMO_ASSET_VERSION = "demo_20260702_3";
+const DEMO_ASSET_VERSION = "demo_20260703_1";
 
 const RESOURCE_LINKS = [
   { label: "Project Page", icon: "🌐", href: "#", tone: "project" },
@@ -1212,22 +1212,32 @@ function isMedia(file, exts) {
 
 function buildMedia(media, title, onEnded = null) {
   if (media.video) {
+    const videoSrc = versionedDemoAsset(media.video);
+    const posterSrc = versionedDemoAsset(media.image || "");
+    const mediaPath = String(media.video).split(/[?#]/)[0].toLowerCase();
     const video = h("video", {
       controls: true,
       autoplay: true,
       muted: true,
       playsInline: true,
       preload: "metadata",
-      poster: media.image || "",
+      poster: posterSrc,
     });
-    video.appendChild(h("source", { src: media.video, type: media.video.endsWith(".webm") ? "video/webm" : "video/mp4" }));
+    video.appendChild(h("source", { src: videoSrc, type: mediaPath.endsWith(".webm") ? "video/webm" : "video/mp4" }));
     video.appendChild(document.createTextNode("Video preview unavailable."));
     if (typeof onEnded === "function") video.addEventListener("ended", onEnded);
     setTimeout(() => video.play?.().catch?.(() => {}), 0);
     return video;
   }
-  if (media.image) return h("img", { src: media.image, alt: title, loading: "lazy" });
+  if (media.image) return h("img", { src: versionedDemoAsset(media.image), alt: title, loading: "lazy" });
   return h("div.demo-media-empty", "No media preview");
+}
+
+function versionedDemoAsset(url) {
+  if (!url) return "";
+  const value = String(url);
+  if (!value.includes("assets/demo/")) return value;
+  return value + (value.includes("?") ? "&" : "?") + `v=${encodeURIComponent(DEMO_ASSET_VERSION)}`;
 }
 
 function pill(label) {
