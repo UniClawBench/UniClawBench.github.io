@@ -2219,8 +2219,8 @@ pre {
   align-items: stretch;
 }
 
-.home-review-section {
-  max-width: 920px;
+.home-runtime-grid {
+  grid-template-columns: minmax(0, 1.1fr) minmax(280px, 0.9fr);
 }
 
 .home-role-strip {
@@ -2307,12 +2307,6 @@ pre {
 
 .home-data-grid .paper-figure {
   grid-row: auto;
-}
-
-.home-statistics-figures {
-  display: grid;
-  gap: 14px;
-  min-width: 0;
 }
 
 .home-chart-card {

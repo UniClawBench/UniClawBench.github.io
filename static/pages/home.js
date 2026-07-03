@@ -8,8 +8,8 @@ import { registerPageRefresh } from "../lib/refresh.js";
 
 const PAPER_FIGURES = {
   method: "assets/paper/three_role_strategy_web.png",
-  coverage: "assets/paper/statistics_heatmaps_combined_wide.png",
-  tokens: "assets/paper/token_and_user.png",
+  coverage: "assets/paper/statistics_heatmaps_combined_wide_web.png",
+  tokens: "assets/paper/token_and_user_web.png",
 };
 const DEMO_ASSET_VERSION = "demo_20260702_3";
 
@@ -316,10 +316,7 @@ function buildDataSection(tasks, aggregate) {
         h("h3", "Task families"),
         h("div.home-bars", counts.map((row) => capabilityBar(row, counts))),
       ]),
-      h("div.home-statistics-figures", [
-        figureCard(PAPER_FIGURES.coverage, "Application-domain coverage and input/output diversity", "wide"),
-        figureCard(PAPER_FIGURES.tokens, "Token usage and performance progression by interaction cycle", "strip"),
-      ]),
+      figureCard(PAPER_FIGURES.coverage, "Input/output diversity and application-domain coverage", "wide"),
       h("div.home-chart-card.compact", [
         h("h3", "Experiment scope"),
         h("div.home-facts", [
@@ -1238,7 +1235,8 @@ function pill(label) {
 }
 
 function buildRuntimeSection() {
-  return h("section.home-section.home-review-section", [
+  return h("section.home-section.home-runtime-grid", [
+    figureCard(PAPER_FIGURES.tokens, "Token usage and performance progression by cycle", "strip"),
     h("div.home-section-copy", [
       h("div.eyebrow", "Run review surfaces"),
       h("h2", "Dynamic and static WebUI share the same review model"),
