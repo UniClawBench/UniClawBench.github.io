@@ -14,8 +14,8 @@ const PAPER_FIGURES = {
 const DEMO_ASSET_VERSION = "demo_20260703_1";
 
 const RESOURCE_LINKS = [
-  { label: "Project Page", icon: "🌐", href: "#", tone: "project" },
-  { label: "Code", icon: "⌘", href: "#", tone: "code" },
+  { label: "Project Page", icon: "🌐", href: "https://uniclawbench.github.io", tone: "project" },
+  { label: "Code", icon: "⌘", href: "https://github.com/HKU-MMLab/UniClawBench", tone: "code" },
   { label: "arXiv", icon: "📄", href: "#", tone: "arxiv" },
   { label: "Daily Paper", icon: "🤗", href: "#", tone: "daily" },
 ];
